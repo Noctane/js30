@@ -1,0 +1,43 @@
+body {
+	background: url(gig.jpg) center center no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	font-weight: normal;
+}
+
+.keys {
+	display: flex;
+	min-height: 100vh;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.key {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	font-size: 30px;
+	line-height: 100px;
+	border: solid 3px black;
+	text-align: center;
+	background: rgba(0,0,0,0.3);
+	color: white;
+	transition: all .07s;
+	box-shadow: 0 0 5px black;
+}
+
+.pressed {
+	transform: scale(1.1);
+	border-color: #f99000;
+	background: rgba(255,2552,255, 0.5);			
+	box-shadow: 0 0 10px #f99000;
+}
